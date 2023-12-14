@@ -2,3 +2,14 @@ baseURL = 'https://myhugodemosite.netlify.app'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'ananke'
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "contacts"
+  name = "Contacts"
+  url = "/contacts/"
+  weight = 20
