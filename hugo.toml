@@ -8,8 +8,5 @@ theme = 'ananke'
   url = "/about/"
   weight = 10
 
-[[menu.main]]
-  identifier = "contacts"
-  name = "Contacts"
-  url = "/contacts/"
-  weight = 20
+
+
