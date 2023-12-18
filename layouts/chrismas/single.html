@@ -1,0 +1,18 @@
+{{ define "main" }}
+    <article class="christmas-background">
+        <h2>{{ .Title }}</h2>
+        {{ .Content }}
+    </article>
+
+    <style>
+    /* Custom CSS for the Christmas background */
+    .christmas-background {
+        background-image: url('{{ .Site.BaseURL }}{{ .Site.Params.background_image }}');
+        background-size: cover;
+        background-position: center;
+        color: white; /* Set text color to white for better visibility */
+        padding: 20px; /* Add some padding for content */
+        border-radius: 10px; /* Optional: Add border radius for a rounded appearance */
+    }
+    </style>
+{{ end }}

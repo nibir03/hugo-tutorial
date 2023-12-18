@@ -5,6 +5,6 @@ draft = false
 menu = 'main'
 +++
 # Welcome to my Contacts page
-Snygg katt !!!!
+pretty CAt !!!!
 ![cool](/img/cool.jpg)
 
